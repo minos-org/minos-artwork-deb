@@ -1,0 +1,15 @@
+Source: minos-artwork
+Section: x11
+Priority: optional
+Maintainer: Javier P.L. <chilicuil@ubuntu.com>
+Build-Depends: debhelper (>= 7.0.5)
+Standards-Version: 3.9.4
+Homepage: https://github.com/minos-org/minos-artwork
+Vcs-Git: git://github.com/minos-org/minos-artwork-deb.git
+Vcs-Browser: https://github.com/minos-org/minos-artwork-deb.git
+
+Package: minos-artwork
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Minos themes, fonts and artwork
+ Minos themes, fonts and artwork
