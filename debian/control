@@ -9,7 +9,7 @@ Vcs-Git: git://github.com/minos-org/minos-artwork-deb.git
 Vcs-Browser: https://github.com/minos-org/minos-artwork-deb.git
 
 Package: minos-artwork
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Minos themes, fonts and artwork
  Minos themes, fonts and artwork
