@@ -18,7 +18,7 @@
 set -e
 
 case "$1" in
-    configure) fc-cache -f -v ;;
+    configure|upgrade) fc-cache -f -v ;;
     abort-upgrade|abort-deconfigure|abort-remove) ;;
     *)
 	printf "%s\\n" "$0 called with unknown argument \`$1'" 1>&2
