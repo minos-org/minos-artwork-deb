@@ -1,3 +1,9 @@
+minos-artwork (1:201607121950+git00fabe6-minos) precise; urgency=low
+
+  * split package into minos-artwork-{core,extra}
+
+ -- Javier P.L. <chilicuil@ubuntu.com>  Tue, 12 Jul 2016 19:50:09 -0500
+
 minos-artwork (1:201406192253+git00fabe6-minos) precise; urgency=low
 
   * Initial version

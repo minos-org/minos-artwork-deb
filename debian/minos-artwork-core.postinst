@@ -18,12 +18,14 @@
 set -e
 
 case "$1" in
-    configure) fc-cache -f -v ;;
+    configure)
+        command -v update-icon-caches >/dev/null 2>&1 && update-icon-caches /usr/share/icons/entis || :
+        command -v fc-cache >/dev/null 2>&1 && fc-cache -f -v || :
+        ;;
     abort-upgrade|abort-deconfigure|abort-remove) ;;
-    *)
-	printf "%s\\n" "$0 called with unknown argument \`$1'" 1>&2
-	exit 1
-	;;
+    *)  printf "%s\\n" "$0 called with unknown argument \`$1'" 1>&2
+        exit 1
+        ;;
 esac
 
 #DEBHELPER#
