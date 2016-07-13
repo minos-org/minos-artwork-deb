@@ -19,7 +19,7 @@ set -e
 
 case "$1" in
     configure)
-        command -v update-icon-caches >/dev/null 2>&1 && update-icon-caches /usr/share/icons/entis || :
+        command -v update-icon-caches >/dev/null 2>&1 && update-icon-caches /usr/share/icons || :
         command -v fc-cache >/dev/null 2>&1 && fc-cache -f -v || :
         ;;
     abort-upgrade|abort-deconfigure|abort-remove) ;;
