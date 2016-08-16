@@ -1,3 +1,10 @@
+minos-artwork (1:201608161046+git00fabe6-minos) precise; urgency=low
+
+  * add trusty/xenial packages into lp recipe:
+    https://code.launchpad.net/~minos-archive/+recipe/minos-artwork
+
+ -- Javier P.L. <chilicuil@ubuntu.com>  Tue, 16 Aug 2016 10:46:34 -0500
+
 minos-artwork (1:201607121950+git00fabe6-minos) precise; urgency=low
 
   * split package into minos-artwork-{core,extra}
