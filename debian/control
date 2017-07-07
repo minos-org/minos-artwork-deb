@@ -8,10 +8,10 @@ Homepage: https://github.com/minos-org/minos-artwork
 Vcs-Git: git://github.com/minos-org/minos-artwork-deb.git
 Vcs-Browser: https://github.com/minos-org/minos-artwork-deb.git
 
-Package: minos-artwork-core
+Package: minos-artwork
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: Minos themes, fonts and artwork
+Description: Minos themes, fonts and artwork.
  Minos themes, fonts and artwork.
 
 Package: minos-artwork-extra
